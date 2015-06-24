@@ -1,0 +1,23 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"font_face": "Courier",
+	"font_size": 16,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		40,
+		80,
+		120,
+		160,
+		200
+	],
+	"word_wrap": true,
+
+    "draw_minimap_border": true,
+    "always_show_minimap_viewport": true,
+    "bold_folder_labels": true,
+    "show_encoding": true
+}
