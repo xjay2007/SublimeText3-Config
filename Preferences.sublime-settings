@@ -1,7 +1,12 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-	"font_face": "Courier",
-	"font_size": 16,
+	"always_show_minimap_viewport": false,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Tomorrow-Night/Tomorrow-Night.tmTheme",
+	"draw_minimap_border": false,
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Consolas",
+	"font_size": 18,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -14,10 +19,11 @@
 		160,
 		200
 	],
-	"word_wrap": true,
-
-    "draw_minimap_border": true,
-    "always_show_minimap_viewport": true,
-    "bold_folder_labels": true,
-    "show_encoding": true
+	"show_encoding": true,
+	"show_minimap": false,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": false,
+	"update_check": false,
+	"word_wrap": true
 }
