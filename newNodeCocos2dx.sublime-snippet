@@ -1,0 +1,20 @@
+<snippet>
+    <tabTrigger>newNodeCocos2dx</tabTrigger>
+    <scope>source.lua</scope>
+    <description>New Node class </description>
+    <content><![CDATA[
+local ${1:className} = class("${1:className}", function()
+    return ${2:super}
+end)
+
+function ${1:className}:ctor(${3:params})
+    ${4:--statements}
+end
+
+return ${1:className}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

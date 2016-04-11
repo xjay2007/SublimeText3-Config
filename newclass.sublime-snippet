@@ -1,0 +1,17 @@
+<snippet>
+    <tabTrigger>newClass</tabTrigger>
+    <scope>source.lua</scope>
+    <content><![CDATA[
+local ${1:className} = class("${1:className}", ${2:super})
+
+function ${1:className}:ctor(${3:params})
+    ${4:--statements}
+end
+
+return ${1:className}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

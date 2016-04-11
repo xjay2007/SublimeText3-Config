@@ -1,10 +1,28 @@
 {
+	"bootstrapped": true,
+	"channels":
+	[
+		"https://github.com/xjay2007/SublimeText3-Config/blob/master/channel_v3.json?raw=true",
+		"https://raw.githubusercontent.com/xjay2007/SublimeText3-Config/master/channel_v3.json"
+	],
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
+		"Anaconda",
+		"BracketHighlighter",
+		"Compare Side-By-Side",
+		"GL Shader Validator",
+		"HexViewer",
+		"InsertDate",
+		"JSON Reindent",
+		"JsonTree",
 		"LuaAutocomplete",
-		"Package Control"
+		"LuaSmartTips",
+		"Package Control",
+		"Protocol Buffer Syntax",
+		"ShaderLanguages",
+		"WakaTime"
 	]
 }
