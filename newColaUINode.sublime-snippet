@@ -1,13 +1,12 @@
 <snippet>
-    <tabTrigger>newNodeCocos2dx</tabTrigger>
+    <tabTrigger>newColaUINode</tabTrigger>
     <scope>source.lua</scope>
-    <description>New Node class </description>
+    <description>New Cola UI Node</description>
     <content><![CDATA[
-local ${1:className} = class("${1:className}", function()
-    return ${2:super}
-end)
+local ${1:className} = class("${1:className}", require("cola.ui.${2:super}Base"))
 
 function ${1:className}:ctor(${3:params})
+    ${1:className}.super.ctor(self, "${1:className}")
     ${4:-- statements}
 end
 

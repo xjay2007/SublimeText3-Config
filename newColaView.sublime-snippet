@@ -1,0 +1,28 @@
+<snippet>
+    <tabTrigger>newColaView</tabTrigger>
+    <scope>source.lua</scope>
+    <description>New Cola View Node</description>
+    <content><![CDATA[
+local ${1:className} = class("${1:className}", require("cola.ui.ViewBase"))
+
+function ${1:className}:ctor(${2:params})
+    ${1:className}.super.ctor(self, "${1:className}")
+    self:_initData()
+    self:_initView()
+end
+
+function ${1:className}:_initData()
+    ${3:-- statements}
+end
+
+function ${1:className}:_initView()
+    ${4:-- statements}
+end
+
+return ${1:className}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

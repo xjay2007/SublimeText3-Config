@@ -1,0 +1,21 @@
+<snippet>
+    <tabTrigger>createPartUI</tabTrigger>
+    <scope>source.lua</scope>
+    <description>Create Part UI</description>
+    <content><![CDATA[
+function ${1:className}:createPart${2:Name}()
+    if self.part${2:Name} then
+        self.part${2:Name}:removeFromParent()
+        self.part${2:Name} = nil
+    end
+    local node = d.node():addTo(self.cont)
+    self.part${2:Name} = node
+
+    ${3:-- statements}
+end
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
